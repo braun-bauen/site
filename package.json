@@ -7,6 +7,12 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "check": "vp check",
+    "check:fix": "vp check --fix",
+    "lint": "vp lint",
+    "lint:fix": "vp lint --fix",
+    "format": "vp fmt",
+    "format:check": "vp fmt --check",
     "prepare": "vp config"
   },
   "dependencies": {
@@ -24,6 +30,9 @@
   "devDependencies": {
     "sharp": "^0.34.5",
     "vite-plus": "catalog:"
+  },
+  "engines": {
+    "node": "24.16.0"
   },
   "packageManager": "pnpm@11.5.1"
 }
