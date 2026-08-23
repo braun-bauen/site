@@ -26,7 +26,7 @@
     "astro": "7.2.4",
     "astro-feather": "^1.0.0",
     "tailwindcss": "^4.3.1",
-    "vite": "8.0.13"
+    "vite": "8.0.16"
   },
   "devDependencies": {
     "sharp": "^0.34.5",
